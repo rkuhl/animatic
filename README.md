@@ -17,9 +17,9 @@ CSS:
 ```  
 HTML:    
 ```html
-&lt;script src="jquery.js" type="text/javascript"&gt;&lt;/script&gt;  
-&lt;script src="jquery-animatic.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;div class="animatic"&gt;&lt;/div&gt;
+<script src="jquery.js" type="text/javascript"></script>  
+<script src="jquery-animatic.js" type="text/javascript"></script>
+<div class="animatic"></div>
 ```  
 JS:  
 ```javascript
@@ -27,5 +27,26 @@ $(document).ready(function() {
 	$(".animatic").animatic();
 });
 ```
+Options
+---
+```frames``` number of animation frames  
+```fps``` frames per secound  
+```direction``` direction (frames on sprite)
+JS:  
+```javascript
+// global settings
+$(document).ready(function() {
+	$(".animatic").animatic({
+		frames : 4
+		, fps : 15
+		, direction : 'right'
+	});
+});
+```  
+HTML:  
+```html
+<div class="animatic" data-frames="24" data-fps="10" data-direction="down"></div>
+```
+
 
 
