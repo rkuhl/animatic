@@ -14,18 +14,18 @@ CSS:
 	height: 50px;
 	background: transparent url("sprite.jpg") no-repeat;
 }
-```
+```  
 HTML:    
-<pre><code>
+```html
 &lt;script src="jquery.js" type="text/javascript"&gt;&lt;/script&gt;  
 &lt;script src="jquery-animatic.js" type="text/javascript"&gt;&lt;/script&gt;
 &lt;div class="animatic"&gt;&lt;/div&gt;
-</code></pre>
+```  
 JS:  
-<pre><code>
+```javascript
 $(document).ready(function() {
 	$(".animatic").animatic();
 });
-</code></pre>
+```
 
 
