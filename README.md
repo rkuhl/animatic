@@ -8,13 +8,13 @@ Example
 ---
 CSS:  
 
-<pre><code>
+```css
 .animatic {
 	width: 50px;
 	height: 50px;
 	background: transparent url("sprite.jpg") no-repeat;
 }
-</code></pre>
+```
 HTML:    
 <pre><code>
 &lt;script src="jquery.js" type="text/javascript"&gt;&lt;/script&gt;  
