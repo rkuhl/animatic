@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="no-skrollr">
+<head>
+	<meta charset="utf-8" />
+	<title>Animatic by Roman Kühl - Example</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="../src/jquery-animatic.js" type="text/javascript"></script>
+</head>
+<body>
+	<h2>jquery-animatic.js</h2>	
+	<span class="animatic green"></span>
+	<br />
+	<span class="animatic orange" data-fps="12"></span>
+	<br />
+	<span class="animatic orange backward" data-direction="left"></span>
+	<script>
+		$(document).ready(function() {
+			$(".animatic").animatic({
+				frames : 4
+				, fps : 5
+				, direction : 'right'
+			});	
+		});
+	</script>
+</body>
+</html>
