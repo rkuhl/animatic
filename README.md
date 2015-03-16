@@ -6,8 +6,8 @@ jQuery CSS sprite animation plugin, by [Roman Kühl](http://www.kuhl.pl).
   
 Example
 ---
+Check out the [example](http://kuhl.pl/github/animatic/).  
 CSS:  
-
 ```css
 .animatic {
 	width: 50px;
